@@ -172,3 +172,40 @@ nav {
     margin: 32px 0 0 0;
     text-align: center;
 }
+
+.reasons_item {
+    position: relative;
+    margin-top: 16px;
+
+    padding-right: 40px;
+}
+
+.reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background-color: #1EACC7;
+    border-radius: 100%;
+    position: absolute; 
+}
+
+.reasons_item_subheader, .reasons_item_descr {
+    margin-left: 141px;
+}
+
+.reasons_item_subheader {
+    color: #1EACC7; 
+    font-weight: 400; 
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.reasons_item_descr {
+    color: #202020; 
+    font-weight: 300; 
+    font-size: 15px;
+    line-height: 21px;
+}
+ 
